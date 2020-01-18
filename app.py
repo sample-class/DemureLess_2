@@ -14,7 +14,7 @@ for id in teachers:
     teachers[id]['id'] = id  # так же, добавляем id учителя "внутрь словаря"
 
 #
-# Чтение данных из файла data.py. Обогощения словаря id, url, сохранение в json.
+# Чтение данных из файла data.py. Обогащения словаря id, url, сохранение в json.
 #
 # teachers = data.teachers
 # for id in teachers:
