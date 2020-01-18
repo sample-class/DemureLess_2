@@ -44,7 +44,7 @@ def inject_goals():
 
 @app.template_filter('my_random_teachers')
 def my_random(random_teachers, quantity=0):
-    # Кастомный фильтр, для рандомного вывода репетиторов
+    """Кастомный фильтр, для рандомного вывода репетиторов"""
     keys = list(random_teachers)
     random.shuffle(keys)
 
