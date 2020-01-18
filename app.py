@@ -2,7 +2,7 @@ import json
 import random
 from datetime import datetime
 
-from flask import Flask, request, render_template
+from flask import Flask, render_template, request
 
 import data
 
